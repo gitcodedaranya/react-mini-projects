@@ -7,12 +7,13 @@ function Home(){
             <h1>My Practice Projects</h1>
             <div className="grid">
                 <div className="box" onClick={() => navigate("/counter")}>Counter App</div>
-            </div>
-            <div className="grid">
                 <div className="box" onClick={() => navigate("/todoapp")}>To Do App</div>
-            </div>
-            <div className="grid">
                 <div className="box" onClick={() => navigate("/formvalidationapp")}>Form validation App</div>
+            </div>
+           <div className="grid">
+                <div className="box" onClick={() => navigate("/counterapp")}>Counter with useEffect</div>
+                <div className="box" onClick={() => navigate("/apicallapp")}>API Call</div>
+                <div className="box" onClick={() => navigate("/realformvalidation")}>Real Form Validation</div>
             </div>
         </div>
 
